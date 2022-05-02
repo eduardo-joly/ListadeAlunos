@@ -52,8 +52,7 @@ for (let contador = 0; contador < listadeAlunos.length; contador++) {
 
     // console.log(contador)
     for (let nome of listadeAlunos) {
-        console.log(`Esta pessoa se chama ${nome}`)
-
+        
     }
     else if (contador % 2 == 0) {
         console.log("o número" + contador + "é par")
