@@ -1,6 +1,6 @@
-let numerodeAlunos = 10;
+let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
 
-for (let contador = 0; contador < numerodeAlunos; contador++) {
+for (let contador = 0; contador < listadeAlunos.length; contador++) {
 
     // console.log(contador)
 
@@ -16,3 +16,21 @@ for (let contador = 0; contador < numerodeAlunos; contador++) {
       
 }
 
+
+
+// let contador = 0
+
+// while (contador < numerodeAlunos) {
+
+//     if (contador == 0) {
+//         console.log("o número atual é zero")
+//     }
+//     else if (contador % 2 == 0) {
+//         console.log("o número" + contador + "é par")
+//     }
+//     else{
+//         console.log(`o número ${contador} é impar`)
+//     }   
+
+//     contador ++
+// }
