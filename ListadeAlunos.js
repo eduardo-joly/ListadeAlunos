@@ -1,24 +1,27 @@
-let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
+// let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
 
-for (let contador = 0; contador < listadeAlunos.length; contador++) {
+// for (let contador = 0; contador < listadeAlunos.length; contador++) {
 
-    // console.log(contador)
+//     // console.log(contador)
 
-    if (contador == 0) {
-        console.log("o número atual é zero")
-    }
-    else if (contador % 2 == 0) {
-        console.log("o número" + contador + "é par")
-    }
-    else{
-        console.log(`o número ${contador} é impar`)
-    }
+//     if (contador == 0) {
+//         console.log("o número atual é zero")
+//     }
+//     else if (contador % 2 == 0) {
+//         console.log("o número" + contador + "é par")
+//     }
+//     else{
+//         console.log(`o número ${contador} é impar`)
+//     }
       
-}
+// }
 
-for (let nome of listadeAlunos) {
-    console.log(`Esta pessoa se chama ${nome}`)
-}
+// for (let nome of listadeAlunos) {
+//     console.log(`Esta pessoa se chama ${nome}`)
+// }
+
+
+_____________________________________________________________
 
 // let contador = 0
 
@@ -35,4 +38,30 @@ for (let nome of listadeAlunos) {
 //     }   
 
 //     contador ++
+
 // }
+
+
+________________________________________________________________
+
+// Desafio do professor Odirlei
+
+let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
+
+for (let contador = 0; contador < listadeAlunos.length; contador++) {
+
+    // console.log(contador)
+    for (let nome of listadeAlunos) {
+        console.log(`Esta pessoa se chama ${nome}`)
+        
+        if (contador == 0) {
+        console.log("o número atual é zero")
+    }
+        else if (contador % 2 == 0) {
+        console.log("o número" + contador + "é par")
+    }
+        else{
+        console.log(`o número ${contador} é impar`)
+    }
+      
+}
