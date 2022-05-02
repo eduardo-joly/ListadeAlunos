@@ -11,7 +11,7 @@ for (let contador = 0; contador < numerodeAlunos; contador++) {
         console.log("o número é par")
     }
     else{
-        console.log)"o número é impar"
+        console.log("o número é impar")
     }
       
 }
