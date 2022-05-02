@@ -45,14 +45,13 @@ _____________________________________________________________
 ________________________________________________________________
 
 // Desafio do professor Odirlei
-
 let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
 
-for (let contador = 0; contador < listadeAlunos.length; contador++) {
+for (let nome of listadeAlunos; contador = 0; contador < listadeAlunos.length; contador++) {
 
-    // console.log(contador)
-    for (let nome of listadeAlunos) {
-        
+    
+    if (contador == 0) {
+        console.log("o número atual é zero")
     }
     else if (contador % 2 == 0) {
         console.log("o número" + contador + "é par")
