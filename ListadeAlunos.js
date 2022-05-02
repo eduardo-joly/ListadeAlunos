@@ -48,7 +48,7 @@ ________________________________________________________________
 let listadeAlunos = ["Jessica", "Odirlei", "Thiago", "Caique"];
 
 for (let nome of listadeAlunos; contador = 0; contador < listadeAlunos.length; contador++) {
-
+    console.log(`Esta pessoa se chama ${nome}`)
     
     if (contador == 0) {
         console.log("o número atual é zero")
