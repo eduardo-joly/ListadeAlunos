@@ -16,7 +16,9 @@ for (let contador = 0; contador < listadeAlunos.length; contador++) {
       
 }
 
-
+for (let nome of listadeAlunos) {
+    console.log(`Esta pessoa se chama ${nome}`)
+}
 
 // let contador = 0
 
